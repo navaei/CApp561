@@ -1,27 +1,71 @@
 {
   "project_info": {
-    "project_number": "951947760951",
-    "firebase_url": "https://slchat-fcc71.firebaseio.com",
-    "project_id": "slchat-fcc71",
-    "storage_bucket": "slchat-fcc71.appspot.com"
+    "project_number": "449557667620",
+    "firebase_url": "https://chatzy-9a3ec.firebaseio.com",
+    "project_id": "chatzy-9a3ec",
+    "storage_bucket": "chatzy-9a3ec.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:951947760951:android:7254d03d81489ff0",
+        "mobilesdk_app_id": "1:449557667620:android:b1385d4a06468e83",
         "android_client_info": {
-          "package_name": "ir.tfone.messenger"
+          "package_name": "ir.chatzy.messenger"
         }
       },
       "oauth_client": [
         {
-          "client_id": "951947760951-b3g3s4kn8juhop5tlvt48871amdmvhop.apps.googleusercontent.com",
+          "client_id": "449557667620-0nknvlo97ujsdg32vb80j9kk6pov8p5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.chatzy.messenger",
+            "certificate_hash": "ed8a7edb399a9332dc0d3b2b15b052cb5f13d7b7"
+          }
+        },
+        {
+          "client_id": "449557667620-7pt9cfhcc9e93gi8a2hke67kg53b6vql.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA_rJsmAPQRzjITk6byS9X0CLjgaNSxptE"
+          "current_key": "AIzaSyBLg4jKrGJXtxqbVoZjFQCtQtXAa4mgOnI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449557667620-7pt9cfhcc9e93gi8a2hke67kg53b6vql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449557667620:android:7e8ada45e7e21f9e",
+        "android_client_info": {
+          "package_name": "ir.chatzy.messenger.alpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449557667620-7pt9cfhcc9e93gi8a2hke67kg53b6vql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLg4jKrGJXtxqbVoZjFQCtQtXAa4mgOnI"
         }
       ],
       "services": {
@@ -39,144 +83,20 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:951947760951:android:4c1689f096fd21af",
+        "mobilesdk_app_id": "1:449557667620:android:273c94ae8e7ae60a",
         "android_client_info": {
-          "package_name": "ir.tfone.messenger.alpha"
+          "package_name": "ir.chatzy.messenger.beta"
         }
       },
       "oauth_client": [
         {
-          "client_id": "951947760951-b3g3s4kn8juhop5tlvt48871amdmvhop.apps.googleusercontent.com",
+          "client_id": "449557667620-7pt9cfhcc9e93gi8a2hke67kg53b6vql.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA_rJsmAPQRzjITk6byS9X0CLjgaNSxptE"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:951947760951:android:7c50443e2d3e87b3",
-        "android_client_info": {
-          "package_name": "ir.tfone.messenger.beta"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "951947760951-b3g3s4kn8juhop5tlvt48871amdmvhop.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA_rJsmAPQRzjITk6byS9X0CLjgaNSxptE"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:951947760951:android:49c970b3f6c7e476",
-        "android_client_info": {
-          "package_name": "ir.tfone.messenger.local"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "951947760951-b3g3s4kn8juhop5tlvt48871amdmvhop.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA_rJsmAPQRzjITk6byS9X0CLjgaNSxptE"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:951947760951:android:f6afd7b67eae3860",
-        "android_client_info": {
-          "package_name": "org.telegram.messenger"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "951947760951-b3g3s4kn8juhop5tlvt48871amdmvhop.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA_rJsmAPQRzjITk6byS9X0CLjgaNSxptE"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:951947760951:android:dc022572c167a16c",
-        "android_client_info": {
-          "package_name": "org.telegram.messenger.beta"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "951947760951-b3g3s4kn8juhop5tlvt48871amdmvhop.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA_rJsmAPQRzjITk6byS9X0CLjgaNSxptE"
+          "current_key": "AIzaSyBLg4jKrGJXtxqbVoZjFQCtQtXAa4mgOnI"
         }
       ],
       "services": {

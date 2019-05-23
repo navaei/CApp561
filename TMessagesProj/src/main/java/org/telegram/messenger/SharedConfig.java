@@ -642,9 +642,9 @@ public class SharedConfig {
     public static void checkSaveToGalleryFiles() {
         try {
             File telegramPath = new File(Environment.getExternalStorageDirectory(), MediaController.MnBaseFolder);
-            File imagePath = new File(telegramPath, "MnChat Images");
+            File imagePath = new File(telegramPath, "Chatzy Images");
             imagePath.mkdir();
-            File videoPath = new File(telegramPath, "MnChat Video");
+            File videoPath = new File(telegramPath, "Chatzy Video");
             videoPath.mkdir();
 
             if (saveToGallery) {

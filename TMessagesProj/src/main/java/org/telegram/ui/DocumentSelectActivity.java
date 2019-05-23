@@ -672,7 +672,7 @@ public class DocumentSelectActivity extends BaseFragment {
             File telegramPath = new File(Environment.getExternalStorageDirectory(), MediaController.MnBaseFolder);
             if (telegramPath.exists()) {
                 fs = new ListItem();
-                fs.title = "MnChat";
+                fs.title = "Chatzy";
                 fs.subtitle = telegramPath.toString();
                 fs.icon = R.drawable.ic_directory;
                 fs.file = telegramPath;

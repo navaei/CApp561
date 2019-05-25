@@ -1484,7 +1484,7 @@
     <string name="PassportInfoUrl">https://Chatzy.org/faq#passport</string>
     <string name="TelegramPassportCreatePasswordInfo">Please create a password to secure your personal data with end-to-end encryption.\n\nThis password will also be required whenever you log in to Chatzy on a new device.</string>
     <string name="TelegramPassportCreatePassword">CREATE A PASSWORD</string>
-    <string name="ChatzyPassportDelete">Delete Chatzy Passport</string>
+    <string name="TelegramPassportDelete">Delete Chatzy Passport</string>
     <string name="TelegramPassportDeleteAlert">Are you sure you want to delete your Chatzy Passport?</string>
     <string name="PassportUseLatinOnly">Please use latin characters only.</string>
     <string name="PassportAddPassportInfo">Upload scans of a certified English translation of your passport.</string>

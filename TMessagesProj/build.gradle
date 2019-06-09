@@ -37,7 +37,7 @@ dependencies {
 
 android {
     compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    buildToolsVersion '28.0.4'
 
     defaultConfig.applicationId = "ir.chatzy.messenger"
 
@@ -71,12 +71,12 @@ android {
 //            keyPassword RELEASE_KEY_PASSWORD
 //        }
 
-//        release {
-//            storeFile file("config/release.keystore")
-//            storePassword RELEASE_STORE_PASSWORD
-//            keyAlias RELEASE_KEY_ALIAS
-//            keyPassword RELEASE_KEY_PASSWORD
-//        }
+        release {
+            storeFile file("config/chatzy")
+            storePassword "chatzy@123400"
+            keyAlias "chatzy"
+            keyPassword "chatzy@123400"
+        }
     }
 
     buildTypes {
@@ -111,8 +111,8 @@ android {
         release {
             debuggable false
             jniDebuggable false
-           // signingConfig signingConfigs.release
-            minifyEnabled true
+            signingConfig signingConfigs.release
+            minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -278,6 +278,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 27
         versionName "5.6.1"
+        multiDexEnabled true
 
         vectorDrawables.generatedDensities = ['mdpi', 'hdpi', 'xhdpi', 'xxhdpi']
 
